@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio de Karyna - Ciência de Dados</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Menu fixo -->
+  <nav>
+    <ul>
+      <li><a href="#sobre">Sobre mim</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+ 
+<!-- Seção Sobre -->
+<section id="sobre">
+  <h1>Sobre mim</h1>
+  <p>
+    Sou profissional em <strong>Governança de Dados</strong>, <strong>Analytics</strong> e <strong>Inteligência Artificial</strong>, em escritório especializado de uma grande Instituição Financeira.
+    Atualmente curso <strong>Tecnologia em Ciência de Dados</strong>, após iniciar minha trajetória como bacharel em <strong>Matemática Aplicada e Computacional</strong>. 
+    Por 18 anos atuei diretamente com clientes em redes de agências, comercializando produtos e serviços, experiência que me deu base sólida em relacionamento, gestão e análise estratégica, migrando então para a área de dados, aplicando essa bagagem para gerar valor aos negócios. 
+    Minha formação inclui pós-graduação em <strong>Gestão de Pessoas</strong> e <strong>MBA em Agronegócios</strong>, o que me permite unir visão estratégica, técnica e humana.
+  </p>
+</section>
+
+<!-- Seção Formação -->
+<section id="formacao">
+  <h1>Formação</h1>
+  <ul>
+    <li><strong>Bacharelado em Matemática Aplicada e Computacional</strong> – UNESP/Ibilce (2002)</li>
+    <li><strong>Pós-graduação em Gestão de Pessoas</strong> – UNINTER (2011)</li>
+    <li><strong>MBA em Agronegócios</strong> – USP/Esalq (2018)</li>
+    <li><strong>Tecnologia em Ciência de Dados</strong> – UNINTER (em andamento)</li>
+    <li><strong>Pós-graduação em Ciência de Dados</strong> – FOCUS (2025)</li>
+  </ul>
+
+  <h2>Certificações</h2>
+  <ul>
+    <li>
+      <strong>Microsoft Certified: Azure Fundamentals (AZ‑900)</strong> – 
+      <a href="COLOQUE_AQUI_SEU_LINK_DE_VALIDAÇÃO" target="_blank">validar certificação</a>
+    </li>
+  </ul>
+</section>
+
+  <!-- Seção Portfólio -->
+  <section id="portfolio">
+    <h1>Portfólio</h1>
+    <p>Projetos que unem dados e inteligência:</p>
+    <ul>
+      <li><a href="#">Dashboard interativo de vendas</a></li>
+      <li><a href="#">Modelo de Machine Learning para previsão</a></li>
+      <li><a href="#">Análise exploratória de dados de saúde</a></li>
+    </ul>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato">
+  <h1>Contato</h1>
+  <form id="formContato" onsubmit="validarFormulario(event)" novalidate>
+    <div class="linha">
+      <div class="campo">
+        <label for="nome"><strong>Nome</strong></label>
+        <input type="text" id="nome" placeholder="Seu nome">
+      </div>
+      <div class="campo">
+        <label for="email"><strong>E-mail</strong></label>
+        <input type="email" id="email" placeholder="Seu e-mail">
+      </div>
+    </div>
+    <div class="campo">
+      <label for="mensagem"><strong>Mensagem</strong></label>
+      <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+
+    
+
+   
+  <!-- Ícones de contato, agora abaixo do botão de tema -->
+  <div class="social-icons">
+    <a href="mailto:karynamt@gmail.com" class="icon email-icon" title="Email">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" viewBox="0 0 24 24">
+        <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 
+        1.1.9 2 2 2h16c1.1 0 2-.9 
+        2-2V6c0-1.1-.9-2-2-2zm0 
+        4-8 5-8-5V6l8 5 8-5v2z"/>
+      </svg>
+    </a>
+
+    <a href="https://www.linkedin.com/in/karynamt" target="_blank" class="icon linkedin-icon" title="LinkedIn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="white" viewBox="0 0 24 24">
+        <path d="M19 0h-14c-2.76 0-5 
+        2.24-5 5v14c0 2.76 2.24 5 
+        5 5h14c2.76 0 5-2.24 
+        5-5V5c0-2.76-2.24-5-5-5zm-11 
+        19H5V9h3v10zm-1.5-11.25c-.97 
+        0-1.75-.78-1.75-1.75s.78-1.75 
+        1.75-1.75 1.75.78 
+        1.75 1.75-.78 1.75-1.75 
+        1.75zm13.5 11.25h-3v-5.5c0-1.1-.9-2-2-2s-2 
+        .9-2 2v5.5h-3V9h3v1.5c.88-1.26 
+        2.54-2.07 4.25-2.07 2.49 0 
+        4.5 2.01 4.5 4.5v6.07z"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+
+</section>
+  <button onclick="alternarTema()">Tema Claro/Escuro</button>
+</section>
+
+</body>
+</html>
+
